@@ -16,7 +16,7 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "clearweather",
+		"abr": "rainythunderstorm",
 		"price": 250,
 		"karmatype": "Neutral"
 	},
@@ -86,6 +86,11 @@
 		"karmatype": "Bad"
 	},
 	{
+		"abr": "refugeechased",
+		"price": 650,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "animaltame",
 		"price": 150,
 		"karmatype": "Good"
@@ -119,6 +124,11 @@
 		"abr": "meteor",
 		"price": 150,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "maninblack",
+		"price": 350,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "madanimal",
@@ -261,6 +271,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "pawn",
+		"price": 1500,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "animal",
 		"price": 1500,
 		"karmatype": "Good"
@@ -284,7 +299,72 @@
 		"abr": "genderswap",
 		"price": 600,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "prisoner",
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "reversetraderequest",
+		"price": 700,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "woundedcombatants",
+		"price": 1500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "pirateextortion",
+		"price": 2500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "roadworks",
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "diplomaticmarriage",
+		"price": 1000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "mysticalshaman",
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "annualexpo",
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "peacetalks",
+		"price": 1000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "piratecamp",
+		"price": 1000,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "bumpercrops",
+		"price": 1000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "hunterslodge",
+		"price": 1000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "baseattack",
+		"price": 1000,
+		"karmatype": "Neutral"
 	}
 	],
-	"total": 57
+	"total": 73
 }
