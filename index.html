@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-    <title>Hodl's Item List</title>
+    <title>XaviienWasTaken's Twitch Toolkit Price List</title>
   </head>
 	<body>
 
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">HodlHodl</a>
+      <a class="navbar-brand" href="#">XaviienWasTaken</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,7 +25,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.twitch.tv/hodlhodl">My Stream</a>
+            <a class="nav-link" href="https://www.twitch.tv/XaviienWasTaken">My Stream</a>
           </li>
         </ul>
       </div>
@@ -180,7 +180,7 @@
 	}
 	</style>
 	<script type="text/javascript">
-		$.getJSON( "https://raw.githubusercontent.com/hodldeeznuts/hodl.github.io/master/itemlist.json", function( data ) {
+		$.getJSON( "https://raw.githubusercontent.com/Xaviien/XaviienWasTaken-Twitch-Toolkit-Price-List/master/itemlist.json", function( data ) {
 		  var options = {
 		      valueNames: ['abr', 'price'],
 		      item: '<tr><td class="abr" scope="row"></td><td class="price"></td></tr>'
@@ -190,7 +190,7 @@
 		  console.log(data);
 
 		});
-		$.getJSON( "https://raw.githubusercontent.com/hodldeeznuts/hodl.github.io/master/eventlist.json", function( data ) {
+		$.getJSON( "https://raw.githubusercontent.com/Xaviien/XaviienWasTaken-Twitch-Toolkit-Price-List/master/eventlist.json", function( data ) {
 		  var options = {
 		      valueNames: ['abr', 'price', 'karmatype'],
 		      item: '<tr><td class="abr" scope="row"></td><td class="price"></td><td class="karmatype"></td></tr>'
